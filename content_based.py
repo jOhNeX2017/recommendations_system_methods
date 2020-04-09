@@ -68,7 +68,7 @@ def give_recommendation(title , sig=sig):
     # top 15 recommendations
     return movies_cleaned_df['original_title'].iloc[movie_indices]
 
-print(type(give_recommendation('Avengers: Age of Ultron')))
+print((give_recommendation('Avengers: Age of Ultron')))
 
 
 
